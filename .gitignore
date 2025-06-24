@@ -1,0 +1,54 @@
+# Go specific
+/bin/
+/pkg/
+/vendor/
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+
+# Rust specific
+/rust_engine/target/
+/**/*.rs.bk
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+env.bak/
+venv.bak/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# Data files and outputs
+/data/*.json
+/data/*.h5
+/data/*.csv
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+*.swp
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Others
+*.bak
+*.orig
+*.rej
